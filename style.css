@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    background-image: url(assets/images/whiskarts.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px ,100vw);
+    height: 739px;
+    position:relative;
+    
+    
+}
+.main .box{
+    height: 70.5vh;
+    width: 100%;
+    opacity: 0.3;
+    position:absolute;
+    top:0%;
+    background-color: black;
+    
+   
+    
+    
+}
+nav{
+    max-width: 60vvw;
+    
+    justify-content: space-between;
+    margin: auto;
+    display:flex;
+    height:50px;
+    align-items:center;
+   
+    
+}
+nav img{
+    
+    z-index:10;
+    
+  
+    
+}
+.hero{
+   
+        font-family: "Martel Sans", serif;
+      
+        font-style: normal;
+      font-size:larger;
+      
+    height:87.8%;
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+    flex-direction: column;
+    position: relative;
+    color:black;
+    padding: 0 23px;
+
+}
+.hero> :first-child{
+    font-weight: 900;
+    font-size: 39px;
+    text-align: center;
+}
+.hero> :nth-child(2){
+    text-align: center;
+    font-weight: 900;
+    font-size: 39px;
+}
+body{
+    background-color:#FFF5EE ;
+    
+}
+.seperation{
+    height:11px;
+    background-color: #E57F54;
+
+}
